@@ -41,7 +41,7 @@ Node *deleteLast(Node *head) {
 }
 void display(Node *head) {
     Node *current = head;
-    while (current == NULL) {
+    if (current == NULL) {
         printf("Danh sach rong");
         return;
     }
